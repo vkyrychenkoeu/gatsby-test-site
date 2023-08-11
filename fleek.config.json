@@ -1,9 +1,9 @@
 {
   "sites": [
     {
-      "slug": "swift-teeny-teacher",
-      "distDir": ".",
-      "buildCommand": "yarn run build"
+      "slug": "better-helpful-eve",
+      "distDir": "public",
+      "buildCommand": "yarn install"
     }
   ]
 }
