@@ -12,10 +12,10 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 16
       - name: Install Fleek CLI
         run: npm i -g @fleekxyz/cli
       - name: Install Packages
-        run: yarn install
+        run: npm install -g yarn && yarn install
       - name: Build & deploy sites
         run: fleek sites deploy

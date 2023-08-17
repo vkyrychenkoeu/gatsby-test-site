@@ -1,9 +1,9 @@
 {
   "sites": [
     {
-      "slug": "better-helpful-eve",
+      "slug": "full-embarrassed-dusk",
       "distDir": "public",
-      "buildCommand": "yarn install"
+      "buildCommand": "yarn run build"
     }
   ]
 }
