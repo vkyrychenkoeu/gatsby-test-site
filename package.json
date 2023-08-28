@@ -4,12 +4,18 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve --port 3000",
+    "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fleekxyz/cli": "^0.3.0",
     "gatsby": "^5.0.0",
+    "gatsby-plugin-google-analytics": "^5.11.0",
+    "gatsby-plugin-google-tagmanager": "^5.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
   }
 }
